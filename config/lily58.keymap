@@ -65,7 +65,7 @@
 &trans    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
 &trans    &kp EXCL   &kp AT     &kp LPAR  &kp RPAR  &trans                          &kp KP_PLUS &kp MINUS &kp EQUAL &trans    &trans    &trans
 &trans    &kp HASH   &kp DLLR   &kp LBRC  &kp RBRC  &kp GRAV                        &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT &trans    &trans      
-&trans    &kp CARET  &kp PRCNT  &kp LBRC  &kp RBRC  &kp TILDE   &trans   &trans     &kp AMPS    &kp ASTRK &kp UNDER &kp BSLH  &kp PIPE  &trans
+&trans    &kp CARET  &kp PRCNT  &kp LBKT  &kp RBKT  &kp TILDE   &trans   &trans     &kp AMPS    &kp ASTRK &kp UNDER &kp BSLH  &kp PIPE  &trans
                                       &trans  &trans  &trans    &trans   &trans     &trans      &trans    &trans
 			>;
 
