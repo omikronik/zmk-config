@@ -71,5 +71,23 @@
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
+
+		rpg_layer {
+// ------------------------------------------------------------------------------------------------------------
+// |       |     |     |      |      |      |                   |      |       |       |      |       |       |
+// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  +   |   -   |   =   |      |       |       |
+// |   F1  |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  <    |   v  |   ^   |  >   |       |       |
+// |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |      |       |       |      |       |   \   |
+//                     |      |      |      |        |  |       |      |       |       |
+			bindings = <
+&trans    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
+&trans    &trans     &trans     &trans    &trans    &trans                          &kp Q      &kp W    &kp UP    &trans    &trans    &trans
+&trans    &trans     &trans     &trans    &trans    &trans                          &trans      &kp LEFT    &kp DOWN    &kp RIGHT    &trans    &trans
+&trans    &trans     &trans     &trans    &trans    &trans    &trans    &trans      &trans      &trans    &trans    &trans    &trans    &trans
+                                      &trans  &trans  &trans    &trans   &trans     &kp Z      &kp X    &kp C
+			>;
+
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+		};
 	};
 };
