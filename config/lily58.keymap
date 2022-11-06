@@ -85,7 +85,7 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |      |       |       |      |       |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&trans    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
+&tog RPG    &trans     &trans     &trans    &trans    &trans                          &trans      &trans    &trans    &trans    &trans    &trans
 &trans    &trans     &trans     &trans    &trans    &trans                          &kp Q      &kp W    &kp UP    &trans    &trans    &trans
 &trans    &trans     &trans     &trans    &trans    &trans                          &trans      &kp LEFT    &kp DOWN    &kp RIGHT    &trans    &trans
 &trans    &trans     &trans     &trans    &trans    &trans    &trans    &trans      &trans      &trans    &trans    &trans    &trans    &trans
